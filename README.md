@@ -1,8 +1,8 @@
-# 🖥️ zhmon — 飞牛NAS 中文系统监控
+# 🖥️ zhmon — 飞牛 fnOS 中文系统监控
 
-一个用 Python 写的**全中文**终端系统监控工具，专为 [飞牛 fnOS](https://www.fnos.com.cn/) NAS 打造，当然任何 Linux 系统都能用！
+用 Python 写的全中文终端系统监控工具，为 [飞牛 fnOS](https://www.fnos.com.cn/) NAS 设计，普通 Linux 同样可用。
 
-> btop / glances / htop 这些终端监控工具都只有英文界面，zhmon 就是来填这个坑的——**界面 100% 中文**，开箱即用。
+> btop / glances / htop 这些终端监控工具只有英文界面，zhmon 补的是这个空缺：界面 100% 中文，装完直接用。
 
 ## ✨ 功能
 
@@ -59,7 +59,7 @@ zhmon
 
 ## 🔧 自定义
 
-想改监控项？直接编辑脚本里的 `build_frame()` 函数，用 rich 排版非常灵活。
+要增删监控项，改脚本里的 `build_frame()` 函数即可，rich 的排版接口比较灵活。
 
 ## 📄 许可证
 
